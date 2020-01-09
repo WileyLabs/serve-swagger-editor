@@ -1,0 +1,28 @@
+{
+  "name": "serve-swagger-editor",
+  "version": "0.0.1",
+  "description": "Serve Swagger Editor from any directory",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "swagger",
+    "openapi",
+    "editor"
+  ],
+  "author": "John Wiley & Sons, Inc.",
+  "contributors": [
+    {
+      "name": "Benjamin Young",
+      "email": "byoung2@wiley.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "swagger-editor-dist": "^3.7.1",
+    "yargs": "^15.1.0"
+  }
+}
