@@ -1,9 +1,11 @@
 FROM node:13.6.0
 
-WORKDIR /swagger-editor
+WORKDIR /install
 
 COPY . .
 
 RUN npm i -g .
 
-ENTRYPOINT ["serve-swagger-editor"]
+WORKDIR /specs
+
+ENTRYPOINT ["/usr/local/bin/serve-swagger-editor"]

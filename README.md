@@ -37,7 +37,7 @@ $ docker build -t serve-swagger-editor .
 Now you can serve files from your local folder:
 
 ```
-$ docker run -it -v $PWD:/swagger-editor -p 3000:3000 serve-swagger-editor
+$ docker run -it -v $PWD:/specs -p 3000:3000 serve-swagger-editor
 ```
 
 ## License
