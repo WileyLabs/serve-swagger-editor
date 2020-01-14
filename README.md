@@ -26,6 +26,20 @@ Or if you need a custom directory and/or port number:
 serve-swagger-editor api/ -p 2020
 ```
 
+## Docker
+
+To use it as a Docker container:
+
+```
+$ docker build -t serve-swagger-editor .
+```
+
+Now you can serve files from your local folder:
+
+```
+$ docker run -it -v $PWD:/swagger-editor -p 3000:3000 serve-swagger-editor
+```
+
 ## License
 
 MIT
