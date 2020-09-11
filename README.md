@@ -17,7 +17,7 @@ then save that file locally.
 ## Usage
 
 ```
-$ npm i -g serve-swagger-editor
+$ npm i -g WileyLabs/serve-swagger-editor
 $ serve-swagger-editor
 ```
 
