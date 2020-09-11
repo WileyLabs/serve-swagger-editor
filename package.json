@@ -23,6 +23,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "swagger-editor-dist": "^3.7.1",
-    "yargs": "^15.1.0"
+    "yargs": "^16.0.3"
   }
 }
